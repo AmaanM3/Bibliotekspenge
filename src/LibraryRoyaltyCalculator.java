@@ -39,7 +39,7 @@ public class LibraryRoyaltyCalculator {
         // Ekstra loop, som kører igennem alle forfattere og printer dem allle ud
         Author[] allAuthors = {author1, author2, author3};
         for (Author a : allAuthors)
-            System.out.printf("%-25s %15f kr.%n", a.getName(), a.calculateRoyalties());
+            System.out.printf("%-25s %15.2f kr.%n", a.getName(), a.calculateRoyalties());
 
         System.out.println("=============================================");
 
