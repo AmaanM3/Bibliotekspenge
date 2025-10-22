@@ -33,7 +33,7 @@ public class LibraryRoyaltyCalculator {
 
         // Printer resultatet på en pæn måde
         System.out.println("=============================================");
-        System.out.println("     Forfatterens samlede Bibliotekspenge    ");
+        System.out.println("     Forfatternes samlede Bibliotekspenge    ");
         System.out.println("=============================================");
 
         // Ekstra loop, som kører igennem alle forfattere og printer dem allle ud
